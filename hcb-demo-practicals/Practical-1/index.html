@@ -15,17 +15,10 @@
 
 			section {
 				height: 100vh;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				flex-direction: column;
 				background-image: url("./assets/bg-pic.png");
-				font-family: "Inter", sans-serif;
-				text-align: center;
 				background-position: center;
 				background-size: cover;
 				background-repeat: no-repeat;
-				color: white;
 			}
 			h1 {
 				margin-bottom: 5px;
@@ -45,17 +38,30 @@
 				cursor: pointer;
 				border-radius: 8px;
 			}
+			div {
+				height: 100vh;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				background-color: rgba(0, 0, 0, 0.5);
+				font-family: "Inter", sans-serif;
+				text-align: center;
+				color: #ffffff;
+			}
 		</style>
 	</head>
 	<body>
 		<section>
-			<h1>New arrivals are here</h1>
-			<p>
-				The new arrivals have, well, newly arrived. Check out the latest
-				options from our <br />
-				summer small-batch release while they're still in stock.
-			</p>
-			<button>Shop New Arrivals</button>
+			<div>
+				<h1>New arrivals are here</h1>
+				<p>
+					The new arrivals have, well, newly arrived. Check out the
+					latest options from our <br />
+					summer small-batch release while they're still in stock.
+				</p>
+				<button>Shop New Arrivals</button>
+			</div>
 		</section>
 	</body>
 </html>
