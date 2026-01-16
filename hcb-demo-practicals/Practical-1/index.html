@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -7,20 +7,55 @@
 			content="width=device-width, initial-scale=1.0" />
 		<title>Practical</title>
 		<style>
-			body {
+			@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+			* {
 				margin: 0;
 				padding: 0;
 			}
+
 			section {
 				height: 100vh;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
 				background-image: url("./assets/bg-pic.png");
+				font-family: "Inter", sans-serif;
+				text-align: center;
 				background-position: center;
-				background-repeat: no-repeat;
 				background-size: cover;
+				background-repeat: no-repeat;
+				color: white;
+			}
+			h1 {
+				margin-bottom: 5px;
+				font-size: 75px;
+			}
+			p {
+				margin-bottom: 32px;
+				font-size: 24px;
+			}
+
+			button {
+				background-color: white;
+				color: black;
+				border: none;
+				padding: 12px 24px;
+				font-size: 18px;
+				cursor: pointer;
+				border-radius: 8px;
 			}
 		</style>
 	</head>
 	<body>
-		<section></section>
+		<section>
+			<h1>New arrivals are here</h1>
+			<p>
+				The new arrivals have, well, newly arrived. Check out the latest
+				options from our <br />
+				summer small-batch release while they're still in stock.
+			</p>
+			<button>Shop New Arrivals</button>
+		</section>
 	</body>
 </html>
