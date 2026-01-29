@@ -6,4 +6,28 @@ body {
 	height: 100vh;
 	width: 100;
 	overflow: hidden;
+	display: flex;
+	margin-left: 8vh;
+	margin-top: 30vh;
+}
+.secure {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 5vh;
+}
+header {
+	color: blue;
+	font-size: larger;
+}
+h1 {
+	font-size: 5vh;
+}
+p {
+	font-size: large;
+	margin-bottom: 3vh;
+}
+span {
+	font-weight: 400;
+	font-weight: bold;
+	font-size: larger;
 }
